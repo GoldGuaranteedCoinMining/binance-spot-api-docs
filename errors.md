@@ -25,7 +25,7 @@ Errors consist of two parts: an error code and a message. Codes are universal,
  * Too much request weight used; current limit is %s request weight per %s %s. Please use the websocket for live updates to avoid polling the API.
  * Way too much request weight used; IP banned until %s. Please use the websocket for live updates to avoid bans.
 
-#### -1006 UNEXPECTED_RESP
+#### -1004 UNEXPECTED_RESP
  * An unexpected response was received from the message bus. Execution status unknown.
 
 #### -1007 TIMEOUT
@@ -67,7 +67,7 @@ Errors consist of two parts: an error code and a message. Codes are universal,
  * Mandatory parameter '%s' was not sent, was empty/null, or malformed.
  * Param '%s' or '%s' must be sent, but both were empty/null!
 
-#### -1103 UNKNOWN_PARAM
+#### -1103 UNKNOWN_PARAMETER
  * An unknown parameter was sent.
 
 #### -1104 UNREAD_PARAMETERS
